@@ -22,7 +22,7 @@ const routes = [
             component: () => import('../views/display/earth-map/index.vue')
         }
     ],
-    meta: { requiresAuth: true },
+    meta: { requiresAuth: false },
   },
   {
     path: '/login',
